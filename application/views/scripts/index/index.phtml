@@ -1,43 +1,27 @@
-<style>
-    a:link,
-    a:visited
-    {
-        color: #0398CA;
-    }
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Array Grid Example</title>
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl(); ?>/css/ext-all.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl(); ?>/css/grid-examples.css" />
 
-    span#zf-name
-    {
-        color: #91BE3F;
-    }
+    <!-- Common Styles for the examples -->
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl(); ?>/css/examples.css" />
+    <!-- GC -->
+    <!-- LIBS -->
+    <script type="text/javascript" src="<?php echo $this->baseUrl(); ?>/js/adapter/ext/ext-base.js"></script>
+    <!-- ENDLIBS -->
 
-    div#welcome
-    {
-        color: #FFFFFF;
-        background-image: url(http://framework.zend.com/images/bkg_header.jpg);
-        width:  600px;
-        height: 400px;
-        border: 2px solid #444444;
-        overflow: hidden;
-        text-align: center;
-    }
+    <script type="text/javascript" src="<?php echo $this->baseUrl(); ?>/js/ext-all.js"></script>
+    <script type="text/javascript" src="<?php echo $this->baseUrl(); ?>/js/array-grid.js"></script>
 
-    div#more-information
-    {
-        background-image: url(http://framework.zend.com/images/bkg_body-bottom.gif);
-        height: 100%;
-    }
-</style>
-<div id="welcome">
-    <h1>Welcome to the <span id="zf-name">Zend Framework!</span></h1>
+</head>
+<body>
+<script type="text/javascript" src="<?php echo $this->baseUrl(); ?>/js//examples.js"></script><!-- EXAMPLES -->
+<h1>Array Grid Example</h1>
+<p>This example shows how to create a grid from Array data.</p>
+<p>Note that the js is not minified so it is readable. See <a href="<?php echo $this->baseUrl(); ?>/js/array-grid.js">array-grid.js</a>.</p>
 
-    <h3>This is your project's main page</h3>
-
-    <div id="more-information">
-        <p><img src="http://framework.zend.com/images/PoweredBy_ZF_4LightBG.png" /></p>
-        <p>
-            Helpful Links: <br />
-            <a href="http://framework.zend.com/">Zend Framework Website</a> |
-            <a href="http://framework.zend.com/manual/en/">Zend Framework Manual</a>
-        </p>
-    </div>
-</div>
+<div id="grid-example"></div>
+</body>
+</html>
